@@ -101,3 +101,4 @@ Pods/
 .DS_Store
 .AppleDouble
 .LSOverride
+.gitignore.swp
