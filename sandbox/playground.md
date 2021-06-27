@@ -16,3 +16,14 @@ for i in 1 ... 3 {
     turnRight()
     
 }
+
+for i in 1 ... 15 {
+    moveForward()
+    if isOnGem {
+        collectGem()
+        gemCounter = gemCounter + 1
+    }
+    if isBlocked {
+        turnRight()
+    }
+}
