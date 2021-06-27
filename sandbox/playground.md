@@ -2,23 +2,6 @@
  ```
 var gemCounter = 0
 
-while !isBlocked {
-    moveForward()
-    if isOnGem {
-        collectGem()
-        gemCounter = gemCounter + 1
-    }
-
-    if isBlocked {
-        turnRight()
-    }
-}
-```
-
-    turnRight()
-    
-}
-
 for i in 1 ... 15 {
     moveForward()
     if isOnGem {
@@ -29,7 +12,7 @@ for i in 1 ... 15 {
         turnRight()
     }
 }
-
+```
 
 
 ### 올바른 포털 설정하기
