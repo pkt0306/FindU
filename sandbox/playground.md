@@ -1,4 +1,5 @@
  ### 값 증가시키기
+ ```
 var gemCounter = 0
 
 while !isBlocked {
@@ -11,3 +12,4 @@ while !isBlocked {
         turnRight()
     }
 }
+```
