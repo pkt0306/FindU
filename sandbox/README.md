@@ -9,4 +9,8 @@ Hi my name is halim
 ### 이다복
 안녕 난 다복 ㅎㅇㅎㅇ
 
+<<<<<<< HEAD
 어디한번 들어와 봐
+=======
+삭제해야지
+>>>>>>> d0abbc3e911c426915f42c4af42b5f0c82edc0fe
