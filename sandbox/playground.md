@@ -16,6 +16,8 @@ for i in 1 ... 15 {
 
 
 ### 올바른 포털 설정하기
+
+```
 bluePortal.isActive = false
 pinkPortal.isActive = false
 var gamCounter = 0
@@ -40,5 +42,4 @@ while gamCounter < 4  {
         bluePortal.isActive = false
     }
     }
-    
-    
+````
