@@ -1,2 +1,2 @@
-AppStore
+# AppStore
 Resources for App Store Registration
