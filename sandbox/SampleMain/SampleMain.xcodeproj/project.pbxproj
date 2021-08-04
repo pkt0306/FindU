@@ -13,6 +13,7 @@
 		123FAA7C26BAD5310030D16B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123FAA7A26BAD5310030D16B /* Main.storyboard */; };
 		123FAA7E26BAD5350030D16B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123FAA7D26BAD5350030D16B /* Assets.xcassets */; };
 		123FAA8126BAD5350030D16B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123FAA7F26BAD5350030D16B /* LaunchScreen.storyboard */; };
+		123FAA8926BADA640030D16B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123FAA8826BADA640030D16B /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		123FAA7D26BAD5350030D16B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		123FAA8026BAD5350030D16B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		123FAA8226BAD5350030D16B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		123FAA8826BADA640030D16B /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		123FAA7326BAD5310030D16B /* SampleMain */ = {
 			isa = PBXGroup;
 			children = (
+				123FAA8826BADA640030D16B /* MainTableViewController.swift */,
 				123FAA7426BAD5310030D16B /* AppDelegate.swift */,
 				123FAA7626BAD5310030D16B /* SceneDelegate.swift */,
 				123FAA7826BAD5310030D16B /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123FAA8926BADA640030D16B /* MainTableViewController.swift in Sources */,
 				123FAA7926BAD5310030D16B /* ViewController.swift in Sources */,
 				123FAA7526BAD5310030D16B /* AppDelegate.swift in Sources */,
 				123FAA7726BAD5310030D16B /* SceneDelegate.swift in Sources */,
