@@ -19,14 +19,17 @@
                             <rect key="frame" x="0.0" y="0.0" width="414" height="407"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <datePicker contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="fyI-Kq-GFM">
+                                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="fyI-Kq-GFM">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="407"/>
                                 </datePicker>
                             </subviews>
                             <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             <constraints>
+                                <constraint firstAttribute="bottom" secondItem="fyI-Kq-GFM" secondAttribute="bottom" constant="50" id="97D-bd-OTa"/>
                                 <constraint firstAttribute="bottom" secondItem="fyI-Kq-GFM" secondAttribute="bottom" id="a8e-hJ-W25"/>
+                                <constraint firstAttribute="trailing" secondItem="fyI-Kq-GFM" secondAttribute="trailing" id="gqY-ep-VUp"/>
                                 <constraint firstItem="fyI-Kq-GFM" firstAttribute="top" secondItem="Alg-5D-jgl" secondAttribute="top" id="hfW-xk-KaA"/>
+                                <constraint firstItem="fyI-Kq-GFM" firstAttribute="leading" secondItem="Alg-5D-jgl" secondAttribute="leading" id="ub6-Wg-Q3O"/>
                             </constraints>
                         </view>
                         <prototypes>
