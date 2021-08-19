@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020D86FC26CE74A40099D2D1 /* Cells in Resources */ = {isa = PBXBuildFile; fileRef = 020D86FB26CE74A40099D2D1 /* Cells */; };
+		020D86FE26CE74AA0099D2D1 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 020D86FD26CE74AA0099D2D1 /* Models */; };
+		020D870226CE74D10099D2D1 /* Restaurant.strings in Resources */ = {isa = PBXBuildFile; fileRef = 020D870126CE74D10099D2D1 /* Restaurant.strings */; };
 		0225E7A626CE6FC1002DC407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0225E7A526CE6FC1002DC407 /* AppDelegate.swift */; };
 		0225E7A826CE6FC1002DC407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0225E7A726CE6FC1002DC407 /* SceneDelegate.swift */; };
 		0225E7AA26CE6FC1002DC407 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0225E7A926CE6FC1002DC407 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020D86FB26CE74A40099D2D1 /* Cells */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Cells; path = ../../../PKT_FindU/PKT_FindU/Cells; sourceTree = "<group>"; };
+		020D86FD26CE74AA0099D2D1 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Models; path = ../../../PKT_FindU/PKT_FindU/Models; sourceTree = "<group>"; };
+		020D870126CE74D10099D2D1 /* Restaurant.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Restaurant.strings; path = ../../../../.Trash/Restaurant.strings; sourceTree = "<group>"; };
 		0225E7A226CE6FC1002DC407 /* FindU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0225E7A526CE6FC1002DC407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0225E7A726CE6FC1002DC407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,7 +62,10 @@
 		0225E7A426CE6FC1002DC407 /* FindU */ = {
 			isa = PBXGroup;
 			children = (
+				020D86FB26CE74A40099D2D1 /* Cells */,
+				020D86FD26CE74AA0099D2D1 /* Models */,
 				0225E7A526CE6FC1002DC407 /* AppDelegate.swift */,
+				020D870126CE74D10099D2D1 /* Restaurant.strings */,
 				0225E7A726CE6FC1002DC407 /* SceneDelegate.swift */,
 				0225E7A926CE6FC1002DC407 /* ViewController.swift */,
 				0225E7AB26CE6FC1002DC407 /* Main.storyboard */,
@@ -124,9 +133,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020D86FE26CE74AA0099D2D1 /* Models in Resources */,
 				0225E7B226CE6FC2002DC407 /* LaunchScreen.storyboard in Resources */,
 				0225E7AF26CE6FC2002DC407 /* Assets.xcassets in Resources */,
 				0225E7AD26CE6FC1002DC407 /* Main.storyboard in Resources */,
+				020D86FC26CE74A40099D2D1 /* Cells in Resources */,
+				020D870226CE74D10099D2D1 /* Restaurant.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
