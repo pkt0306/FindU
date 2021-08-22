@@ -1,0 +1,31 @@
+/* 
+  Restaurant.strings
+  PKT_FindU_2.0
+
+  Created by PKT on 2021/08/22.
+  
+*/
+
+{"response": [
+    {
+        "categori": "Cafe",
+        "products": [
+        {
+            "name": "포에틱시너리",
+            "roadAddress": "경남 진주시 진주대로 518 2층",
+            "parcelAddress": "경남 진주시 가좌동 480-7 2층",
+            "telephoneNumber": "055-762-0207 / 0507-1436-0231",
+            "signatureMenu": "수비드 돼지 안심 스테이크",
+            "openingTime": "12:00 ~ 22:00",
+            "HashTag1": "#분위기좋은",
+            "HashTag2": "#고급진",
+            "HashTag3": "#블랙톤",
+            "HashTag4": "#파스타",
+            "HashTag5": "#스테이크"
+            }
+        ]
+        }
+    ]
+    }
+
+[{"testName": "포에틱시너리"},{"testName": "얼로우미"},{"testName": "그레오"}]
