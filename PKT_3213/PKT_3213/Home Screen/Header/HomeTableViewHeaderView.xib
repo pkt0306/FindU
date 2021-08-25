@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeTableViewHeaderView" customModule="PKT_3213" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="32"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D76-FU-LrJ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="32"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mainHashTagLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rl7-Ji-1EC">
+                            <rect key="frame" x="16" y="0.0" width="170" height="24"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="rl7-Ji-1EC" firstAttribute="leading" secondItem="D76-FU-LrJ" secondAttribute="leading" constant="16" id="Uvd-jb-oP9"/>
+                        <constraint firstItem="rl7-Ji-1EC" firstAttribute="top" secondItem="D76-FU-LrJ" secondAttribute="top" id="VZ7-7X-eLy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="D76-FU-LrJ" secondAttribute="bottom" id="1HR-pn-1O8"/>
+                <constraint firstItem="D76-FU-LrJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BX0-0u-AQh"/>
+                <constraint firstItem="D76-FU-LrJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HXE-pT-qJp"/>
+                <constraint firstAttribute="trailing" secondItem="D76-FU-LrJ" secondAttribute="trailing" id="PVH-UI-SOl"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mainHashTagLabel" destination="rl7-Ji-1EC" id="NeZ-t6-mfX"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="46.551724137931039"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
